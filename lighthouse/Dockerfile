@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /src/*.deb
 
-RUN yarn global add lighthouse-ci@latest
+RUN yarn global add lighthouse@latest
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 
