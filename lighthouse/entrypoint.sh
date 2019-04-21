@@ -2,4 +2,4 @@
 
 set -e
 
-sh -c "lighthouse-ci $*"
+sh -c "lighthouse $*"
